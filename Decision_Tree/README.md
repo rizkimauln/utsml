@@ -1,6 +1,6 @@
 # Decision Tree Classification - Oranges vs Grapefruit
 
-Panduan praktikum membangun model klasifikasi menggunakan algoritma **Decision Tree** dengan dataset Oranges vs Grapefruit.
+Klasifikasi menggunakan algoritma **Decision Tree** dengan dataset Oranges vs Grapefruit.
 
 ---
 
