@@ -75,3 +75,15 @@ Dataset yang digunakan adalah `citrus.csv`. Dataset ini berisi informasi mengena
 ## 📈 Evaluasi Model
 
 Setiap model dievaluasi menggunakan metrik akurasi, *classification report* (Precision, Recall, F1-Score), serta visualisasi berupa *Confusion Matrix* dan *ROC Curve* untuk melihat seberapa baik model dapat membedakan antara kedua kelas (Orange dan Grapefruit). Penjelasan detail mengenai hasil setiap model dapat dilihat pada file `README.md` di masing-masing folder model.
+
+### 🏆 Perbandingan Hasil Ketiga Model
+
+Berdasarkan pengujian pada *test set*, berikut adalah ringkasan hasil evaluasi performa dari masing-masing algoritma:
+
+| No | Model | Accuracy | F1-Score |
+|:---:|---|:---:|:---:|
+| 1 | **Decision Tree** | 93.80% | 0.9380 |
+| 2 | **Naive Bayes** | 92.08% | 0.9208 |
+| 3 | **Support Vector Machine (SVM)**| 93.68% | 0.9368 |
+
+Dari tabel di atas, dapat dilihat bahwa algoritma **Decision Tree** menghasilkan performa paling tinggi dengan akurasi **93.80%**, sangat bersaing ketat dengan model **SVM** yang memperoleh akurasi **93.68%**. Sementara itu, **Naive Bayes** berada sedikit di bawah keduanya dengan akurasi **92.08%**.
