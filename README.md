@@ -2,7 +2,7 @@
 
 Tugas ini disusun untuk memenuhi tugas/Ujian Tengah Semester (UTS) mata kuliah Machine Learning.
 
-## 📋 Deskripsi Proyek
+## Deskripsi Proyek
 
 Tujuan dari program ini adalah untuk membangun model Machine Learning yang dapat memprediksi apakah sebuah buah sitrus adalah **Orange** (Jeruk) atau **Grapefruit** (Jeruk Bali) berdasarkan fitur-fitur fisik yang terdapat pada dataset seperti diameter dan berat buah.
 
@@ -11,7 +11,7 @@ Tiga algoritma yang diimplementasikan dan dibandingkan performanya dalam proyek 
 2. **Naive Bayes**
 3. **Support Vector Machine (SVM)**
 
-## 📂 Struktur File dan Direktori
+## Struktur File dan Direktori
 
 Proyek ini dibagi menjadi beberapa folder berdasarkan model algoritma yang digunakan. Setiap folder berisi source code, visualisasi hasil evaluasi (Confusion Matrix & ROC Curve), serta penjelasan spesifik mengenai model tersebut.
 
@@ -35,7 +35,7 @@ UTS ML/
 └── README.md
 ```
 
-## 📊 Dataset
+## Dataset
 
 Dataset yang digunakan adalah `citrus.csv`. Dataset ini berisi informasi mengenai buah sitrus dengan beberapa kolom fitur utama seperti:
 - `name`: Label target klasifikasi (`orange` atau `grapefruit`)
@@ -43,7 +43,7 @@ Dataset yang digunakan adalah `citrus.csv`. Dataset ini berisi informasi mengena
 - `weight`: Berat buah (dalam gram)
 - `red`, `green`, `blue`: Nilai intensitas warna RGB dari buah tersebut.
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 1. **Clone repository ini** ke komputer lokal Anda:
    ```bash
@@ -66,11 +66,11 @@ Dataset yang digunakan adalah `citrus.csv`. Dataset ini berisi informasi mengena
    python Support_Vector_Machine/svm.py
    ```
 
-## 📈 Evaluasi Model
+## Evaluasi Model
 
 Setiap model dievaluasi menggunakan metrik akurasi, *classification report* (Precision, Recall, F1-Score), serta visualisasi berupa *Confusion Matrix* dan *ROC Curve* untuk melihat seberapa baik model dapat membedakan antara kedua kelas (Orange dan Grapefruit). Penjelasan detail mengenai hasil setiap model dapat dilihat pada file `README.md` di masing-masing folder model.
 
-### 🏆 Perbandingan Hasil Ketiga Model
+### Perbandingan Hasil Ketiga Model
 
 Berdasarkan pengujian pada *test set*, berikut adalah ringkasan hasil evaluasi performa dari masing-masing algoritma:
 
