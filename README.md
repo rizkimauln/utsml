@@ -1,10 +1,10 @@
-# Citrus Fruit Classification (Orange vs Grapefruit) 🍊🍋
+# Citrus Fruit Classification (Orange vs Grapefruit)
 
-Repositori ini berisi proyek Machine Learning untuk klasifikasi buah sitrus (Jeruk vs Jeruk Bali/Grapefruit) menggunakan tiga model algoritma yang berbeda. Proyek ini disusun untuk memenuhi tugas/Ujian Tengah Semester (UTS) mata kuliah Machine Learning.
+Tugas ini disusun untuk memenuhi tugas/Ujian Tengah Semester (UTS) mata kuliah Machine Learning.
 
 ## 📋 Deskripsi Proyek
 
-Tujuan dari proyek ini adalah untuk membangun model Machine Learning yang dapat memprediksi apakah sebuah buah sitrus adalah **Orange** (Jeruk) atau **Grapefruit** (Jeruk Bali) berdasarkan fitur-fitur fisik yang terdapat pada dataset seperti diameter dan berat buah.
+Tujuan dari program ini adalah untuk membangun model Machine Learning yang dapat memprediksi apakah sebuah buah sitrus adalah **Orange** (Jeruk) atau **Grapefruit** (Jeruk Bali) berdasarkan fitur-fitur fisik yang terdapat pada dataset seperti diameter dan berat buah.
 
 Tiga algoritma yang diimplementasikan dan dibandingkan performanya dalam proyek ini adalah:
 1. **Decision Tree**
@@ -19,26 +19,20 @@ Proyek ini dibagi menjadi beberapa folder berdasarkan model algoritma yang digun
 UTS ML/
 │
 ├── Decision_Tree/
-│   ├── decision_tree.py                  # Source code model Decision Tree
-│   ├── README.md                         # Dokumentasi spesifik Decision Tree
-│   ├── confusion_matrix_decision_tree.png# Hasil visualisasi confusion matrix
-│   └── roc_curve_decision_tree.png       # Hasil visualisasi ROC Curve
+│   ├── decision_tree.py
+│   ├── README.md
 │
 ├── Naive_Bayes/
-│   ├── naive_bayes.py                    # Source code model Naive Bayes
-│   ├── README.md                         # Dokumentasi spesifik Naive Bayes
-│   ├── confusion_matrix_naive_bayes.png  # Hasil visualisasi confusion matrix
-│   └── roc_curve_naive_bayes.png         # Hasil visualisasi ROC Curve
+│   ├── naive_bayes.py
+│   ├── README.md
 │
 ├── Support_Vector_Machine/
-│   ├── svm.py                            # Source code model SVM
-│   ├── README.md                         # Dokumentasi spesifik SVM
-│   ├── confusion_matrix_svm.png          # Hasil visualisasi confusion matrix
-│   └── roc_curve_svm.png                 # Hasil visualisasi ROC Curve
+│   ├── svm.py
+│   ├── README.md
 │
-├── citrus.csv                            # Dataset utama yang digunakan
-├── .gitignore                            # Ignored files untuk Git
-└── README.md                             # Dokumentasi utama proyek (File ini)
+├── citrus.csv
+├── .gitignore
+└── README.md
 ```
 
 ## 📊 Dataset
