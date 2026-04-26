@@ -1,6 +1,6 @@
-# 🤖 Naive Bayes Classification — Oranges vs Grapefruit
+# Naive Bayes Classification Oranges vs Grapefruit
 
-Panduan praktikum membangun model klasifikasi menggunakan algoritma **Gaussian Naive Bayes** dengan dataset Oranges vs Grapefruit.
+Klasifikasi menggunakan algoritma **Gaussian Naive Bayes** dengan dataset Oranges vs Grapefruit.
 
 ---
 
