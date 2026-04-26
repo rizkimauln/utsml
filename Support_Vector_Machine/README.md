@@ -1,10 +1,10 @@
-# ⚔️ Support Vector Machine (SVM) Classification — Oranges vs Grapefruit
+# Support Vector Machine (SVM) Classification Oranges vs Grapefruit
 
-Panduan praktikum membangun model klasifikasi menggunakan algoritma **Support Vector Machine (SVM)** dengan dataset Oranges vs Grapefruit.
+Klasifikasi menggunakan algoritma **Support Vector Machine (SVM)** dengan dataset Oranges vs Grapefruit.
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Sumber:** [Kaggle – Oranges vs Grapefruit](https://www.kaggle.com/datasets/joshmcadams/oranges-vs-grapefruit)
 - **Jumlah data:** 10.000 baris
@@ -13,7 +13,7 @@ Panduan praktikum membangun model klasifikasi menggunakan algoritma **Support Ve
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -21,7 +21,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 🚀 Langkah-Langkah
+## Langkah-Langkah
 
 ### 1. Import Library
 
