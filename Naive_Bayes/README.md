@@ -4,7 +4,7 @@ Klasifikasi menggunakan algoritma **Gaussian Naive Bayes** dengan dataset Orange
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Sumber:** [Kaggle – Oranges vs Grapefruit](https://www.kaggle.com/datasets/joshmcadams/oranges-vs-grapefruit)
 - **Jumlah data:** 10.000 baris
@@ -13,7 +13,7 @@ Klasifikasi menggunakan algoritma **Gaussian Naive Bayes** dengan dataset Orange
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
@@ -21,7 +21,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-## 🚀 Langkah-Langkah
+## Langkah-Langkah
 
 ### 1. Import Library
 
